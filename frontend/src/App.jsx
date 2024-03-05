@@ -1,35 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import { Center, Container, SimpleGrid, Card, Title, Image } from '@mantine/core';
+
+import logo from '/public/lightspace_logo_small.png'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+      <SimpleGrid cols={3} spacing="lg">
+      <Card shadow="sm" mah={100} maw={100} padding="lg" style={{background: 'black'}}>
+            <Image src={logo} width={100} height={100}/>
+      </Card>
+      <Card shadow="sm" padding="lg" maw={100} mah={100} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'black', height: 200 }}>
+            <Title style={{color: 'white'}}>B</Title>
+      </Card>
+      <Card shadow="sm" mah={100} maw={100} padding="lg" style={{background: 'black'}}>
+            <Image src={logo} width={100} height={100}/>
+      </Card>
+      <Card shadow="sm" padding="lg" maw={100} mah={100} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'black', height: 200 }}>
+            <Title style={{color: 'white'}}>T</Title>
+      </Card>
+      <Card shadow="sm" mah={100} maw={100} padding="lg" style={{background: 'black'}}>
+            <Image src={logo} width={100} height={100}/>
+      </Card>
+      <Card shadow="sm" mah={100} maw={100} padding="lg" style={{background: 'black'}}>
+            <Image src={logo} width={100} height={100}/>
+      </Card>
+      <Card shadow="sm" mah={100} maw={100} padding="lg" style={{background: 'black'}}>
+            <Image src={logo} width={100} height={100}/>
+      </Card>
+      <Card shadow="sm" mah={100} maw={100} padding="lg" style={{background: 'black'}}>
+            <Image src={logo} width={100} height={100}/>
+      </Card>
+      <Card shadow="sm" padding="lg" maw={100} mah={100} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'black', height: 200 }}>
+            <Title style={{color: 'white'}}>E</Title>
+      </Card>
+
+      </SimpleGrid>
+    </div>
+  );
 }
 
-export default App
+export default App;
