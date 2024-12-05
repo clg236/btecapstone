@@ -23,7 +23,7 @@ const ProjectShowcaseHeader = () => {
         </div>
         <p className="text-lg max-w-3xl">
           Showcasing innovative solutions in fintech, sustainability, documentation, travel, music, and more. 
-          Each project represents months of ideation, user research, and technical development from NYU Stern's 
+          Each project represents months of ideation, user research, and technical development from NYU Stern&apos;s 
           emerging entrepreneurs.
         </p>
       </div>

@@ -10,21 +10,26 @@ const AltfolioProject = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      {/* Hero Section */}
-      <div className="relative h-screen bg-black">
-        <img 
-          src="https://storage.cloud.google.com/bte-capstone-images/altfolio/ezgif-6-8d1fa663c3-1.gif"
-          alt="Altfolio Demo"
-          className="absolute inset-0 w-full h-full object-cover opacity-80"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/20" />
-        <div className="relative max-w-7xl mx-auto px-4 h-full flex flex-col justify-center">
-          <h1 className="text-7xl font-bold text-white mb-6">Altfolio</h1>
-          <p className="text-3xl text-white/90 max-w-2xl font-light">
-            Harness the power of alternative data with our no-code scraping and analysis platform.
-          </p>
+    {/* Hero Section */}
+    <div className="relative bg-black py-24">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h1 className="text-7xl font-bold text-white mb-6">Altfolio</h1>
+            <p className="text-2xl text-white/90 max-w-2xl font-light">
+              Harness the power of alternative data with our no-code scraping and analysis platform.
+            </p>
+          </div>
+          <div className="relative h-[400px] rounded-lg overflow-hidden">
+            <img 
+              src="https://storage.cloud.google.com/bte-capstone-images/altfolio/ezgif-6-8d1fa663c3-1.gif"
+              alt="Altfolio Demo"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
         </div>
       </div>
+    </div>
 
       {/* Team Section */}
       <div className="bg-white">

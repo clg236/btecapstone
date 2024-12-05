@@ -52,7 +52,7 @@ export default function CapstonePage() {
             This capstone project explores innovative approaches to environmental data visualization, 
             focusing on making complex ecological datasets more accessible and understandable to the 
             general public. By combining advanced data processing techniques with intuitive user 
-            interfaces, we've created a platform that bridges the gap between scientific research 
+            interfaces, we&apos;ve created a platform that bridges the gap between scientific research 
             and public understanding.
           </p>
         </Card>

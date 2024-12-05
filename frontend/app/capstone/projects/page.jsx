@@ -135,7 +135,7 @@ const ProjectShowcase = () => {
             </div>
           </div>
           <p className="text-lg max-w-3xl leading-relaxed opacity-90">
-            Showcasing cutting-edge solutions from NYU Stern's emerging entrepreneurs across fintech, 
+            Showcasing cutting-edge solutions from NYU Stern&apos;s emerging entrepreneurs across fintech, 
             sustainability, documentation, travel, music, and more.
           </p>
         </div>
