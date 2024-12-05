@@ -9,7 +9,7 @@ const ProjectShowcase = () => {
     {
       name: "Style Cycle",
       description: "A membership-based clothing swap platform offering NYC women an affordable way to refresh wardrobes while reducing fashion waste.",
-      link: "/projects/style-cycle",
+      link: "projects/stylecycle",
       tech: "Shopify, Google Forms, Calendly",
       image: "/projects/style-cycle/hero.png",
       team: [
