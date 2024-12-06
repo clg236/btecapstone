@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "BTE Capstone Archive",
-  description: "created by xtian",
+  title: "BTE Capstone Pages",
+  description: "a collection of NYU Stern BTE capstone projects",
 };
 
 export default function RootLayout({children}) {
