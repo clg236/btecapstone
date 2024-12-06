@@ -9,7 +9,7 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      {/* Hero Section */}
+
       <div className="relative h-[70vh] bg-gradient-to-r from-blue-600 to-purple-600 overflow-hidden">
         <video 
           className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20"
@@ -17,7 +17,7 @@ export default function Page() {
           loop 
           muted 
           playsInline
-          src="https://storage.cloud.google.com/bte-capstone-images/eden/eden/FinalDemo.mov"
+          src="/projects/eden/hero.png"
         />
         <div className="relative max-w-7xl mx-auto px-4 h-full flex flex-col justify-center">
           <h1 className="text-6xl font-bold text-white mb-6">Eden</h1>
@@ -36,10 +36,8 @@ export default function Page() {
         </div>
       </div>
 
-      {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* Left Column - Content */}
           <div className="lg:col-span-2 space-y-12">
             <section>
               <h2 className="text-3xl font-bold mb-6">Project Evolution</h2>
@@ -114,10 +112,10 @@ export default function Page() {
                   <div key={member.email} className="flex items-center justify-between">
                     <span>{member.name}</span>
                     <div className="flex gap-2">
-                      <a href="#" className="text-gray-500 hover:text-blue-600">
+                      <a href="https://www.linkedin.com/in/alexander-talamonti/" className="text-gray-500 hover:text-blue-600">
                         <Linkedin className="h-5 w-5" />
                       </a>
-                      <a href="#" className="text-gray-500 hover:text-gray-800">
+                      <a href="https://github.com/kaylnlkwan/" className="text-gray-500 hover:text-gray-800">
                         <Github className="h-5 w-5" />
                       </a>
                     </div>

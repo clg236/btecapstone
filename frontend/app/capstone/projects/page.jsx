@@ -19,7 +19,7 @@ const ProjectShowcase = () => {
     {
       name: "TableTango",
       description: "API Infrastructure for real-time waitlists, reservations, and up-to-date menu information for enhanced dining experiences.",
-      link: "/projects/table-tango",
+      link: "projects/table-tango",
       tech: "React.js, GraphQL, PostgreSQL",
       image: "/projects/table-tango/hero.png",
       team: [
@@ -30,7 +30,7 @@ const ProjectShowcase = () => {
     {
       name: "Risky Business",
       description: "Automated trading algorithm targeting S&P 500 momentum with smart execution and risk management.",
-      link: "/projects/risky-business",
+      link: "projects/risky",
       tech: "Python, Alpaca Trading API",
       image: "/projects/risky-business/hero.png",
       team: [
@@ -40,7 +40,7 @@ const ProjectShowcase = () => {
     {
       name: "KaSa Batteries",
       description: "A peer-to-peer platform connecting certified battery recyclers with businesses accumulating battery stock.",
-      link: "/projects/kasa-batteries",
+      link: "projects/kasa",
       tech: "Web, Octopus CRM",
       image: "/projects/kankyo/hero.png",
       team: [
@@ -48,9 +48,23 @@ const ProjectShowcase = () => {
       ]
     },
     {
+      name: "Spenser",
+      description: "A Chrome extension that automates expense management with smart receipt processing and AI-powered categorization, saving businesses time and money.",
+      link: "projects/spenser",
+      tech: "Python, Flask, Google Cloud Vision",
+      image: "/projects/spenser/hero.png",
+      team: [
+        { name: "Julian Singer", email: "jes9815@stern.nyu.edu" },
+        { name: "Karan Raval", email: "kr2680@stern.nyu.edu" },
+        { name: "Pranavi Veeramachaneni", email: "pv2115@stern.nyu.edu" },
+        { name: "Cynthia Zhang", email: "cz2496@stern.nyu.edu" },
+        { name: "Jonathan Fung", email: "jf4382@stern.nyu.edu" }
+      ]
+    },
+    {
       name: "Musiconnect",
       description: "Platform connecting artists across genres and borders, enabling seamless collaboration and celebrating music as a universal language.",
-      link: "/projects/musiconnect",
+      link: "projects/musiconnect",
       tech: "Wix",
       image: "/projects/musiconnect/hero.png",
       team: [
@@ -79,9 +93,21 @@ const ProjectShowcase = () => {
       ]
     },
     {
+      name: "Mikro",
+      description: "A peer-to-peer platform for friendly situational wagers, enabling users to create and participate in micro-bets with friends on everyday activities.",
+      link: "projects/mikro",
+      tech: "Swift, Firebase, Firestore",
+      image: "/projects/brobets/hero.png",
+      team: [
+        { name: "Rafed Abbassi", email: "rja9695@stern.nyu.edu" },
+        { name: "Michael Shen", email: "mrs9938@stern.nyu.edu" },
+        { name: "Jonathan Yu", email: "jpy8185@stern.nyu.edu" }
+      ]
+    },
+    {
       name: "Dreaming Daytrip",
       description: "Travel aid program that visualizes the planning experience and allows for easy sharing.",
-      link: "projects/dreaming-daytrip",
+      link: "projects/daydreaming",
       tech: "WeChat Mini-Program, Tencent Cloud",
       image: "/projects/dreaming-daytrip/hero.png",
       team: [
