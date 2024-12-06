@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Card, CardHeader, CardContent } from '@/components/ui/card';
 import { ArrowRight, Linkedin, Users, BookOpen, Code } from 'lucide-react';
 
@@ -59,6 +60,18 @@ const ProjectShowcase = () => {
         { name: "Pranavi Veeramachaneni", email: "pv2115@stern.nyu.edu" },
         { name: "Cynthia Zhang", email: "cz2496@stern.nyu.edu" },
         { name: "Jonathan Fung", email: "jf4382@stern.nyu.edu" }
+      ]
+    },
+    {
+      name: "ScaleSearch",
+      description: "Investment discovery platform combining human-based intelligence with precision-ranked insights, enabling natural language search across CRM systems for smarter investment sourcing.",
+      link: "projects/scalesearch",
+      tech: "HTML/CSS/JavaScript, OpenAI",
+      image: "https://storage.cloud.google.com/bte-capstone-images/scalesearch/Screenshot%202024-11-26%20at%204.15.33%E2%80%AFPM.png",
+      team: [
+        { name: "Vincent Su", email: "vls8142@stern.nyu.edu" },
+        { name: "Arjun Kumar", email: "amk9604@stern.nyu.edu" },
+        { name: "Pranav Srigiriraju", email: "" }
       ]
     },
     {
@@ -134,10 +147,19 @@ const ProjectShowcase = () => {
       <div className="relative bg-gradient-to-r from-blue-600 to-purple-600 text-white overflow-hidden">
         <div className="absolute inset-0 bg-grid-white/[0.2] bg-[size:16px_16px]" />
         <div className="relative max-w-7xl mx-auto px-4 py-24">
-          <h1 className="text-5xl font-bold mb-6 animate-fade-in">
-            Fall 2024 BTE Capstone Projects
-          </h1>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div className="flex justify-between items-start mb-12">
+            <h1 className="text-5xl font-bold animate-fade-in">
+              Fall 2024 BTE Capstone Projects
+            </h1>
+            <a 
+              href="advisors"
+              className="inline-flex items-center px-6 py-3 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
+            >
+              Meet Our Advisors <ArrowRight className="ml-2 h-4 w-4" />
+            </a>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div className="flex items-center space-x-3 bg-white/10 rounded-lg p-4">
               <Users className="h-8 w-8" />
               <div>
@@ -155,10 +177,22 @@ const ProjectShowcase = () => {
             <div className="flex items-center space-x-3 bg-white/10 rounded-lg p-4">
               <Code className="h-8 w-8" />
               <div>
-                <div className="text-2xl font-bold">BTE</div>
+                <Link href="https://www.stern.nyu.edu/programs-admissions/undergraduate/academics/bs-degree-business-technology-and-entrepreneurship">
+                <div className="text-2xl font-bold">NYU Stern's BTE</div>
                 <div className="text-sm opacity-80">Program</div>
+                </Link>
               </div>
             </div>
+            <a 
+              href="advisors"
+              className="flex items-center space-x-3 bg-white/10 rounded-lg p-4 hover:bg-white/20 transition-colors"
+            >
+              <Users className="h-8 w-8" />
+              <div>
+                <div className="text-2xl font-bold">7</div>
+                <div className="text-sm opacity-80">Industry Advisors</div>
+              </div>
+            </a>
           </div>
           <p className="text-lg max-w-3xl leading-relaxed opacity-90">
             Showcasing cutting-edge solutions from NYU Stern&apos;s emerging entrepreneurs across fintech, 

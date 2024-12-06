@@ -12,28 +12,8 @@ export default function Header() {
                 </NavbarBrand>
                 <NavbarContent className="hidden sm:flex gap-4" justify="center">
                     <NavbarItem isActive>
-                        <Link href="#" aria-current="page">
+                        <Link href="/capstone/2024/fall/projects" aria-current="page">
                             2024
-                        </Link>
-                    </NavbarItem>
-                    <NavbarItem>
-                        <Link href="#" aria-current="page">
-                            2025
-                        </Link>
-                    </NavbarItem>
-                    <NavbarItem>
-                        <Link href="#" aria-current="page">
-                            2026
-                        </Link>
-                    </NavbarItem>
-                    <NavbarItem>
-                        <Link href="#" aria-current="page">
-                            ...
-                        </Link>
-                    </NavbarItem>
-                    <NavbarItem>
-                        <Link href="#" aria-current="page">
-                            2050
                         </Link>
                     </NavbarItem>
                 </NavbarContent>
