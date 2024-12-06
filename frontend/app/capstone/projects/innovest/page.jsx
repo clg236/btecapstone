@@ -20,7 +20,7 @@ const InnovestProject = () => {
         <div className="relative max-w-7xl mx-auto px-4 h-full flex flex-col justify-center">
           <h1 className="text-7xl font-bold text-white mb-6">Innovest</h1>
           <p className="text-2xl text-white/90 max-w-2xl leading-relaxed">
-            Making startup investing as seamless as online shopping through KRChoksey's platform.
+            Making startup investing as seamless as online shopping through KRChoksey&apos;s platform.
           </p>
         </div>
       </div>
@@ -137,7 +137,7 @@ const InnovestProject = () => {
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold">Maitri Choksey</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Building on KRChoksey's legacy to revolutionize startup investment accessibility
+                  Building on KRChoksey&apos;s legacy to revolutionize startup investment accessibility
                   and streamline the due diligence process for the next generation of investors.
                 </p>
                 <div className="flex gap-4">

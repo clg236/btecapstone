@@ -58,7 +58,7 @@ const DreamingDaytripProject = () => {
             </div>
             <h3 className="text-xl font-semibold mb-4">Community Sharing</h3>
             <p className="text-gray-600">
-              Share your travel experiences and itineraries with the community, inspiring others' adventures.
+              Share your travel experiences and itineraries with the community, inspiring others&apos; adventures.
             </p>
           </div>
         </div>

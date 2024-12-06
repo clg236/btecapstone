@@ -34,7 +34,7 @@ const ProjectShowcase = () => {
       tech: "Python, Alpaca Trading API",
       image: "/projects/risky-business/hero.png",
       team: [
-        { name: "Phat Don", email: "d2226@stern.nyu.edu" }
+        { name: "Phat Do", email: "d2226@stern.nyu.edu" }
       ]
     },
     {

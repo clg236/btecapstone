@@ -27,7 +27,7 @@ const MusiconnectProject = () => {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-6">Our Vision</h2>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Born from personal experiences of music's universal language, Musiconnect aims to break down barriers 
+            Born from personal experiences of music&apos;s universal language, Musiconnect aims to break down barriers 
             between artists worldwide, making collaboration accessible to independent and emerging musicians.
           </p>
         </div>
@@ -123,7 +123,7 @@ const MusiconnectProject = () => {
                 </div>
                 <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl">
                   <h3 className="font-semibold mb-2">Backend Services</h3>
-                  <p className="text-gray-600">Powered by Wix's integrated tools for database management and functionality</p>
+                  <p className="text-gray-600">Powered by Wix&apos;s integrated tools for database management and functionality</p>
                 </div>
               </div>
             </div>
@@ -132,11 +132,11 @@ const MusiconnectProject = () => {
               <div className="space-y-4">
                 <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl">
                   <h3 className="font-semibold mb-2">Dynamic Profiles</h3>
-                  <p className="text-gray-600">Customizable artist profiles with Wix's form and template tools</p>
+                  <p className="text-gray-600">Customizable artist profiles with Wix&apos;s form and template tools</p>
                 </div>
                 <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl">
                   <h3 className="font-semibold mb-2">Integrated Communication</h3>
-                  <p className="text-gray-600">Built-in messaging and follow system using Wix's user management features</p>
+                  <p className="text-gray-600">Built-in messaging and follow system using Wix&apos;s user management features</p>
                 </div>
               </div>
             </div>

@@ -45,7 +45,7 @@ const StyleCycleProject = () => {
             <div>
               <h2 className="text-3xl font-bold mb-4">Meet the Founder</h2>
               <p className="text-xl mb-6">
-                Mariangel Sumo brings her passion for sustainable fashion to NYC's style-conscious community.
+                Mariangel Sumo brings her passion for sustainable fashion to NYC&apos;s style-conscious community.
               </p>
               <div className="flex gap-4">
                 <a href="#" className="text-emerald-600 hover:text-emerald-700">
@@ -64,7 +64,7 @@ const StyleCycleProject = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border">
               <h3 className="text-xl font-semibold mb-4">Communal Closet</h3>
-              <p>Browse and swap quality pieces from NYC's style community with ease.</p>
+              <p>Browse and swap quality pieces from NYC&apos;s style community with ease.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border">
               <h3 className="text-xl font-semibold mb-4">Quality Control</h3>
