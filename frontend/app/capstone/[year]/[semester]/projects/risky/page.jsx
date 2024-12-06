@@ -112,7 +112,7 @@ const RiskyBusinessProject = () => {
             <div>
               <h2 className="text-3xl font-bold mb-6">The Creator</h2>
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold">Phat Don</h3>
+                <h3 className="text-xl font-semibold">Phat Do</h3>
                 <p className="text-gray-600 leading-relaxed">
                   Combining financial expertise with programming skills to create 
                   automated trading strategies that remove emotional decision-making.
