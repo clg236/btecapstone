@@ -178,7 +178,7 @@ const ProjectShowcase = () => {
               <Code className="h-8 w-8" />
               <div>
                 <Link href="https://www.stern.nyu.edu/programs-admissions/undergraduate/academics/bs-degree-business-technology-and-entrepreneurship">
-                <div className="text-2xl font-bold">NYU Stern's BTE</div>
+                <div className="text-2xl font-bold">NYU Stern&apos;s BTE</div>
                 <div className="text-sm opacity-80">Program</div>
                 </Link>
               </div>
