@@ -14,7 +14,7 @@ const ProjectShowcase = () => {
       tech: "Shopify, Google Forms, Calendly",
       image: "/projects/style-cycle/hero.png",
       team: [
-        { name: "Mariangel Sumo", email: "mas10129@stern.nyu.edu" }
+        { name: "Mariangel Sumoza", email: "mas10129@stern.nyu.edu" }
       ]
     },
     {

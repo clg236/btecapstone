@@ -39,16 +39,16 @@ const StyleCycleProject = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <img 
               src="https://storage.cloud.google.com/bte-capstone-images/stylecycle/mariangel.png"
-              alt="Mariangel Sumo"
+              alt="Mariangel Sumoza"
               className="rounded-lg shadow-lg"
             />
             <div>
               <h2 className="text-3xl font-bold mb-4">Meet the Founder</h2>
               <p className="text-xl mb-6">
-                Mariangel Sumo brings her passion for sustainable fashion to NYC&apos;s style-conscious community.
+                Mariangel Sumoza brings her passion for sustainable fashion to NYC&apos;s style-conscious community.
               </p>
               <div className="flex gap-4">
-                <a href="#" className="text-emerald-600 hover:text-emerald-700">
+                <a href="https://www.linkedin.com/in/mariangelsumoza" className="text-emerald-600 hover:text-emerald-700">
                   <Linkedin className="h-6 w-6" />
                 </a>
               </div>
