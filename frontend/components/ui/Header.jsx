@@ -11,9 +11,19 @@ export default function Header() {
                     <p className="pl-5 font-bold text-inherit">BTE</p>
                 </NavbarBrand>
                 <NavbarContent className="hidden sm:flex gap-4" justify="center">
-                    <NavbarItem isActive>
-                        <Link href="/capstone/2024/fall/projects" aria-current="page">
-                            2024
+                    <NavbarItem>
+                        <Link href="/capstone/2024/spring" aria-current="page">
+                            Spring 2024
+                        </Link>
+                    </NavbarItem>
+                    <NavbarItem>
+                        <Link href="/capstone/2024/fall">
+                            Fall 2024
+                        </Link>
+                    </NavbarItem>
+                    <NavbarItem>
+                        <Link href="/capstone/2025/spring">
+                            Spring 2025
                         </Link>
                     </NavbarItem>
                 </NavbarContent>

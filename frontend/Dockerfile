@@ -23,8 +23,6 @@ ENV NODE_ENV production
 ENV NEXT_TELEMETRY_DISABLED 1
 ENV NEXT_SHARP_PATH=/tmp/node_modules/sharp
 
-ENV NEXT_DEBUG 1
-
 # Remove existing .next folder if it exists
 RUN rm -rf .next
 
