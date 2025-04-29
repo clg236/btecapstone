@@ -11,10 +11,10 @@ const BTEHomePage = () => {
   const [projects, setProjects] = useState([
     { 
       id: 1, 
-      title: 'AltFolio', 
-      description: 'A comprehensive portfolio management system for alternative investments and digital assets.',
-      imageUrl: 'https://source.unsplash.com/random/800x600/?finance',
-      route: '/capstone/2024/fall/projects/altfolio',
+      title: 'BroBets', 
+      description: 'A comprehensive fantasy sports and social betting platform that enhances the sports viewing experience through friendly competition.',
+      imageUrl: '/projects/brobets/hero.png',
+      route: '/capstone/2024/fall/projects/brobets',
       teamAvatars: [
         'https://randomuser.me/api/portraits/men/33.jpg', 
         'https://randomuser.me/api/portraits/women/45.jpg'
@@ -23,8 +23,8 @@ const BTEHomePage = () => {
     { 
       id: 2, 
       title: 'MusiConnect', 
-      description: 'A platform connecting independent musicians with venues, fans, and industry professionals.',
-      imageUrl: 'https://source.unsplash.com/random/800x600/?music',
+      description: 'A platform connecting independent musicians with venues, fans, and industry professionals to streamline the live music booking process.',
+      imageUrl: '/projects/musiconnect/hero.png',
       route: '/capstone/2024/fall/projects/musiconnect',
       teamAvatars: [
         'https://randomuser.me/api/portraits/women/62.jpg', 
@@ -34,8 +34,8 @@ const BTEHomePage = () => {
     { 
       id: 3, 
       title: 'Eden', 
-      description: 'An AI-driven system for optimizing urban gardens and small-scale agricultural projects.',
-      imageUrl: 'https://source.unsplash.com/random/800x600/?garden',
+      description: 'An AI-driven system for optimizing urban gardens and small-scale agricultural projects to promote sustainable food production.',
+      imageUrl: '/projects/eden/hero.png',
       route: '/capstone/2024/fall/projects/eden',
       teamAvatars: [
         'https://randomuser.me/api/portraits/men/31.jpg', 
@@ -44,10 +44,10 @@ const BTEHomePage = () => {
     },
     { 
       id: 4, 
-      title: 'Kasa', 
-      description: 'A home management solution that integrates smart devices, maintenance scheduling, and expense tracking.',
-      imageUrl: 'https://source.unsplash.com/random/800x600/?smarthome',
-      route: '/capstone/2024/fall/projects/kasa',
+      title: 'Table Tango', 
+      description: 'A restaurant reservation and table management system that optimizes dining experiences for both restaurants and customers.',
+      imageUrl: '/projects/table-tango/hero.png',
+      route: '/capstone/2024/fall/projects/table-tango',
       teamAvatars: [
         'https://randomuser.me/api/portraits/women/42.jpg', 
         'https://randomuser.me/api/portraits/men/79.jpg'
@@ -55,10 +55,10 @@ const BTEHomePage = () => {
     },
     { 
       id: 5, 
-      title: 'ScaleSearch', 
-      description: 'An advanced search and analytics platform designed specifically for B2B companies scaling globally.',
-      imageUrl: 'https://source.unsplash.com/random/800x600/?analytics',
-      route: '/capstone/2024/fall/projects/scalesearch',
+      title: 'Innovest', 
+      description: 'An investment platform that democratizes access to venture capital opportunities for everyday investors.',
+      imageUrl: '/projects/innovest/hero.png',
+      route: '/capstone/2024/fall/projects/innovest',
       teamAvatars: [
         'https://randomuser.me/api/portraits/men/14.jpg', 
         'https://randomuser.me/api/portraits/women/25.jpg'
@@ -66,13 +66,57 @@ const BTEHomePage = () => {
     },
     { 
       id: 6, 
-      title: 'StyleCycle', 
-      description: 'A circular fashion marketplace that extends the lifecycle of clothing through AI-powered matching.',
-      imageUrl: 'https://source.unsplash.com/random/800x600/?fashion',
-      route: '/capstone/2024/fall/projects/stylecycle',
+      title: 'Style Cycle', 
+      description: 'A circular fashion marketplace that extends the lifecycle of clothing through AI-powered matching and sustainable practices.',
+      imageUrl: '/projects/style-cycle/hero.png',
+      route: '/capstone/2024/fall/projects/style-cycle',
       teamAvatars: [
         'https://randomuser.me/api/portraits/women/41.jpg', 
         'https://randomuser.me/api/portraits/men/21.jpg'
+      ] 
+    },
+    { 
+      id: 7, 
+      title: 'Dreaming Daytrip', 
+      description: 'An AI-powered travel recommendation system that creates personalized day trip itineraries based on user preferences.',
+      imageUrl: '/projects/dreaming-daytrip/hero.png',
+      route: '/capstone/2024/fall/projects/dreaming-daytrip',
+      teamAvatars: [
+        'https://randomuser.me/api/portraits/women/51.jpg', 
+        'https://randomuser.me/api/portraits/men/52.jpg'
+      ] 
+    },
+    { 
+      id: 8, 
+      title: 'Risky Business', 
+      description: 'A risk management platform that helps small businesses identify, assess, and mitigate operational and financial risks.',
+      imageUrl: '/projects/risky-business/hero.png',
+      route: '/capstone/2024/fall/projects/risky-business',
+      teamAvatars: [
+        'https://randomuser.me/api/portraits/men/61.jpg', 
+        'https://randomuser.me/api/portraits/men/62.jpg'
+      ] 
+    },
+    { 
+      id: 9, 
+      title: 'Spenser', 
+      description: 'A personal finance management tool that helps young professionals budget, save, and invest through behavioral economics principles.',
+      imageUrl: '/projects/spenser/hero.png',
+      route: '/capstone/2024/fall/projects/spenser',
+      teamAvatars: [
+        'https://randomuser.me/api/portraits/women/71.jpg', 
+        'https://randomuser.me/api/portraits/women/72.jpg'
+      ] 
+    },
+    { 
+      id: 10, 
+      title: 'Kankyo', 
+      description: 'An environmental monitoring platform that helps businesses track and reduce their carbon footprint through IoT sensors and analytics.',
+      imageUrl: '/projects/kankyo/hero.png',
+      route: '/capstone/2024/fall/projects/kankyo',
+      teamAvatars: [
+        'https://randomuser.me/api/portraits/men/81.jpg', 
+        'https://randomuser.me/api/portraits/women/82.jpg'
       ] 
     },
   ]);
@@ -171,7 +215,7 @@ const BTEHomePage = () => {
             <h2 className="text-2xl font-semibold mb-6">Student Projects</h2>
             {filteredProjects.length === 0 ? (
               <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                <p className="text-gray-600 text-lg">No projects found matching "{searchTerm}"</p>
+                <p className="text-gray-600 text-lg">No projects found matching &quot;{searchTerm}&quot;</p>
                 <button 
                   className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
                   onClick={() => setSearchTerm('')}
@@ -222,38 +266,7 @@ const BTEHomePage = () => {
             )}
           </div>
         </div>
-
-        {/* Call to Action Section */}
-        <div className="mt-12 bg-blue-600 text-white p-8 rounded-lg shadow-md flex justify-between items-center">
-          <div>
-            <h2 className="text-2xl font-bold mb-2">Ready to learn more?</h2>
-            <p className="text-lg">Contact us to discover how our students can help your business.</p>
-          </div>
-          <div>
-            {/* Logo Placeholder */}
-            <div className="w-16 h-16 bg-white rounded flex items-center justify-center">
-              <span className="text-blue-600 font-bold text-xs">BTE Logo</span>
-            </div>
-          </div>
-        </div>
       </main>
-
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white mt-12 py-6">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-4 md:mb-0">
-              <h3 className="text-lg font-semibold">BTE Capstone Program</h3>
-              <p className="text-gray-300">&copy; {new Date().getFullYear()} All Rights Reserved</p>
-            </div>
-            <div className="flex space-x-4">
-              <Link href="#" className="hover:text-blue-300">Contact</Link>
-              <Link href="#" className="hover:text-blue-300">Projects</Link>
-              <Link href="#" className="hover:text-blue-300">About</Link>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };

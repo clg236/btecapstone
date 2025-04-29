@@ -221,44 +221,6 @@ export default function BTE2024Page() {
           </div>
         </div>
       </section>
-
-      {/* Call to Action */}
-      <section className="py-16 bg-[#57068c] text-white text-center">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-6">Explore the Innovation Journey</h2>
-          <p className="text-xl max-w-3xl mx-auto mb-10">Discover how NYU Stern BTE students are reimagining industries and creating solutions for tomorrow&apos;s challenges.</p>
-          <div className="flex flex-wrap justify-center gap-6">
-            <Link href="/capstone/2024/spring" className="bg-white text-[#57068c] px-8 py-4 rounded-md font-bold hover:bg-gray-100 transition-colors">
-              Spring 2024 Projects
-            </Link>
-            <Link href="/capstone/2024/fall" className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-md font-bold hover:bg-white/10 transition-colors">
-              Fall 2024 Projects
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-10">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-6 md:mb-0">
-              <h2 className="text-2xl font-bold">NYU Stern</h2>
-              <p className="text-gray-400">Business, Technology &amp; Entrepreneurship</p>
-            </div>
-            <div className="text-center md:text-right">
-              <p className="text-gray-400">&copy; {new Date().getFullYear()} New York University. All rights reserved.</p>
-              <Link 
-                href="https://www.stern.nyu.edu/programs-admissions/undergraduate/academics/bs-degree-business-technology-and-entrepreneurship" 
-                target="_blank" 
-                className="text-gray-400 hover:text-white underline"
-              >
-                Learn more about BTE
-              </Link>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

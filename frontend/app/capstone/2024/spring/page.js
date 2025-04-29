@@ -170,7 +170,7 @@ const BTEHomePage = () => {
             <h2 className="text-2xl font-semibold mb-6">Student Projects</h2>
             {filteredProjects.length === 0 ? (
               <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                <p className="text-gray-600 text-lg">No projects found matching "{searchTerm}"</p>
+                <p className="text-gray-600 text-lg">No projects found matching &quot;{searchTerm}&quot;</p>
                 <button 
                   className="mt-4 bg-cyan-600 text-white px-4 py-2 rounded hover:bg-cyan-700 transition-colors"
                   onClick={() => setSearchTerm('')}
@@ -221,38 +221,7 @@ const BTEHomePage = () => {
             )}
           </div>
         </div>
-
-        {/* Call to Action Section */}
-        <div className="mt-12 bg-cyan-600 text-white p-8 rounded-lg shadow-md flex justify-between items-center">
-          <div>
-            <h2 className="text-2xl font-bold mb-2">Want to learn more?</h2>
-            <p className="text-lg">Contact us to discover how our students can bring innovation to your organization.</p>
-          </div>
-          <div>
-            {/* Logo Placeholder */}
-            <div className="w-16 h-16 bg-white rounded flex items-center justify-center">
-              <span className="text-cyan-600 font-bold text-xs">BTE Logo</span>
-            </div>
-          </div>
-        </div>
       </main>
-
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white mt-12 py-6">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-4 md:mb-0">
-              <h3 className="text-lg font-semibold">BTE Capstone Program</h3>
-              <p className="text-gray-300">&copy; {new Date().getFullYear()} All Rights Reserved</p>
-            </div>
-            <div className="flex space-x-4">
-              <Link href="#" className="hover:text-cyan-300">Contact</Link>
-              <Link href="#" className="hover:text-cyan-300">Projects</Link>
-              <Link href="#" className="hover:text-cyan-300">About</Link>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };
