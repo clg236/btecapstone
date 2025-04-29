@@ -53,6 +53,16 @@ const ProjectDetailPage = ({ projectId }) => {
       {
         title: 'Seamless Integration',
         description: 'Works with existing tools like Google Classroom, Microsoft Teams, and popular video conferencing platforms.'
+      },
+      {
+        title: 'Personalized Flashcards & Lists',
+        description: 'Save AI responses to your own customized lists and flashcards for efficient studying and reference.',
+        image: '/projects/icerynk/icerynk_feature_1.png'
+      },
+      {
+        title: 'Adaptive Quizzes',
+        description: 'Smart quizzes that adapt to your learning needs, focusing on areas where you need the most improvement.',
+        image: '/projects/icerynk/icerynk_feature_2.png'
       }
     ],
     testimonials: [
@@ -164,7 +174,7 @@ const ProjectDetailPage = ({ projectId }) => {
               
               <h2 className="text-xl font-semibold mt-8 mb-4">Key Features</h2>
               <div className="space-y-4">
-                {project.features.map((feature, index) => (
+                {project.features.filter(feature => !feature.image).map((feature, index) => (
                   <div key={index} className="border-l-4 border-blue-500 pl-4">
                     <h3 className="font-medium text-lg">{feature.title}</h3>
                     <p className="text-gray-600">{feature.description}</p>
@@ -206,6 +216,26 @@ const ProjectDetailPage = ({ projectId }) => {
                     <div key={index} className="border-l-4 border-gray-300 pl-4 py-2">
                       <p className="text-gray-700 italic">&quot;{testimonial.quote}&quot;</p>
                       <p className="text-gray-600 mt-2 text-sm">— {testimonial.author}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Feature Screenshots Section */}
+              <div className="bg-white p-6 shadow-md rounded-lg mt-6">
+                <h2 className="text-xl font-semibold mb-4">Key Features</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {project.features.filter(feature => feature.image).map((feature, index) => (
+                    <div key={index} className="border rounded-lg overflow-hidden">
+                      <img 
+                        src={feature.image} 
+                        alt={feature.title} 
+                        className="w-full h-auto object-cover"
+                      />
+                      <div className="p-4">
+                        <h3 className="font-medium text-lg">{feature.title}</h3>
+                        <p className="text-gray-600 mt-1">{feature.description}</p>
+                      </div>
                     </div>
                   ))}
                 </div>
