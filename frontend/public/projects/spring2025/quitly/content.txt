@@ -1,0 +1,61 @@
+Quitly
+Project Description
+● Quitly is a habit-breaking app designed to help people quit a bad habit by leveraging the power of group accountability. Quitly focuses on behavior change through social support. Users can join small groups, check in daily to maintain shared streaks, and track their progress on a group leaderboard. Inspired by Atomic Habits and behavioral psychology, Quitly turns quitting from an isolating experience into a shared challenge. By transforming peer pressure into a positive force, Quitly helps users build lasting habits in an environment where progress can be made together.
+Key Features
+Group Accountability
+Users join a small group and track their progress together.
+Daily Check-Ins
+Each day, users check in to maintain group streaks.
+Leaderboard
+Friendly competition encourages consistency.
+Inspired by Psychology
+Designed around principles from Atomic Habits and behavioral science.
+Main Feature Showcase
+Key visuals include:
+● Group leaderboard interface
+● Daily check-in page
+● User streak tracker
+Our Story
+As someone personally working to quit vaping, I understand the challenges of breaking nicotine addiction. Combined with the rising prevalence of vaping among my peers, this project is driven by the need for a fun, engaging, and effective solution that helps others on the same journey.
+Problem We're Solving
+Quitting is not just a physical challenge — it’s a deeply social and behavioral one. Most quit attempts fail because people try to do it alone, in environments filled with triggers and without consistent support.
+Our Solution
+Quitly helps people quit smoking by turning it into a shared challenge. Through daily check-ins, group streaks, and leaderboards, it creates a supportive environment where positive peer pressure and accountability drive real behavior change.
+Market Analysis
+● Inspired by Duolingo’s reward-driven model, Quitly emphasizes fun and accountability for quitting habits.
+● Existing tools lack the group element and engaging design that Quitly provides.
+Key Product Features
+Gamified Behavior Change
+Encourages commitment through streaks and group stats.
+Atomic Habits-Based Design
+Built on the proven principles of behavior change.
+Small Group Structure
+Fosters trust, motivation, and accountability.
+Technical Approach
+ChatGPT: Assisted with building logic and structure.
+Xcode: Tried for iOS version but faced challenges.
+Replit: Early experimentation for backend functions.
+Technical Challenges
+There were many technical challenges along the way. Initially, I created a demo page through Python and tried to set up a backend with Firebase. I got stuck on making the page interactive and including the features I desired. Then I tried to use Xcode for an iOS app, but it didn’t display the demo properly. I eventually settled on an AI platform that let me generate the demo I wanted.
+About the Creator
+Daniel Luo, Founder
+Student in BTE, with experience in consulting. Loves to play golf. Quit smoking for 5 months and going strong.
+LinkedIn: www.linkedin.com/in/daniel-luo-b82606235
+Lessons Learned & Future Plans
+Lessons Learned:
+● Quitting is difficult, but consistency is key.
+● Find meaning in the work you do.
+● Tech can be hard, but AI can simplify the process.
+● Seek help and take feedback seriously.
+Future Work / Next Steps:
+● Have the app running and use it with friends.
+● Test more thoroughly and gather user feedback.
+● Analyze retention and usefulness of features.
+Project Materials
+Documentation: https://docs.google.com/document/d/1gI6XbJCRVxyVAvDqqAlFOYsi2ZuDdgOMMm5VBDC75xw/edit?usp=sharing
+Demo Video: https://www.loom.com/share/b187f346b4c44232983a2353213ddd59?sid=8f09cc6f-6c18-4ce0-a48e-89d484b26f6f
+Slide Deck: https://docs.google.com/presentation/d/1ajXW-o83NYjk5tmYW9r4YjGlhPmh8OIcoO-YwULvonU/edit?usp=sharing
+Keywords
+Positive peer pressure, accountability, and community
+Team Advisor
+Tomi Odunsi

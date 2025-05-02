@@ -1,0 +1,66 @@
+UNINVESTABLE
+Project Description
+● UNINVESTABLE is a dual AI business intelligence platform and brokerage platform that assists retail investors in the Chinese markets with a macro focus.
+● It utilizes a custom AI business intelligence assistant to translate foreign publications directly and provide relevant forward guidance based on signaled industries.
+● It provides company names, corporate structures, and financial information on major foreign companies.
+● Its main value proposition lies in the business intelligence offering that is much cheaper than Bloomberg and Capital IQ subscriptions while providing incentives for direct trade execution.
+● Furthermore, it would allow for direct equity investments and the option of overriding HKEX minimum stock order requirements once the business scales.
+Key Features
+AI Business Intelligence Assistant
+Translates foreign publications and extracts macro signals to help users discover trading opportunities.
+Equity Market Access
+Allows users to invest directly in HK, SZ, and SH equities through the StockConnect program.
+Affordable Pricing
+At $20/month, it undercuts Bloomberg and Capital IQ while offering personalized, actionable data.
+Market Condition Aggregator
+Scrapes and synthesizes data from government sources and financial news to inform trading decisions.
+Smart Trade Execution
+Future vision includes removing HKEX lot minimums, enabling fractional or smaller-scale trading.
+Main Feature Showcase
+Key visuals include:
+● Business Intelligence AI Prototype
+● Business Intelligence Landing Page
+● Main Page Interface
+Our Story
+The idea for UNINVESTABLE emerged from Kevin Xiong’s personal investing and internship experiences. During a previous bull market, Kevin’s investments in blue chip Chinese stocks outperformed the S&P 500, sparking a deep interest in overseas alpha generation. His time at a securities firm in Beijing exposed the fragmented structure of Chinese markets and the inefficiencies within them—insights that inspired the creation of a more accessible and data-rich investment platform for American retail investors. By blending AI with macro research and trade execution, UNINVESTABLE aims to democratize access to China's equity markets.
+Problem We're Solving
+This project addresses the information asymmetry that American retail investors face in discovering alpha and trading opportunities in the Chinese markets.
+Our Solution
+Through AI infrastructure, UNINVESTABLE allows users to gather relevant and bespoke information on companies in the Chinese market. The pricing of $20 per month significantly undercuts Bloomberg and Capital IQ while offering personalized information. Furthermore, it provides in-depth information on market conditions and government publications through web scraping local news platforms and government announcements. By participating in the StockConnect program, this platform allows users to invest directly into the HK, SZ, and SH equity markets. This opens more equities to American retail investors, while clearing systems within the platform will avoid the restrictive minimum lot sizes required by the HKEX.
+Market Analysis
+● 50 million retail investors in the U.S.
+● Growing appetite for macro diversification due to U.S. market volatility
+● Retail investors often priced out of U.S. equities or unaware of foreign opportunities
+● American investors face barriers like high data costs (Bloomberg, Capital IQ) and limited access to foreign markets
+Key Product Features
+Business Intelligence AI
+Scrapes and translates global publications, surfacing relevant signals and company-level data.
+Macro Market Dashboard
+Provides a clean, informative overview of China’s economic direction and relevant sectors.
+Main Platform UI
+A simple, intuitive dashboard with actionable insights, trade suggestions, and access to foreign equities.
+Technical Approach
+Developed using NextJS, React, and OpenAI. The frontend prototype and AI assistant were built independently by Kevin Xiong, without a technical team, using available co-pilot tools. There were no major technical challenges reported.
+About the Creators
+Kevin Xiong Co-Founder
+Senior at NYU studying Business, Technology, and Computer Science. Kevin brings a unique perspective from both his investing and international finance internship experience. He’s currently seeking a full-time role in finance—specifically investing, trading, or asset management.
+LinkedIn: https://www.linkedin.com/in/klx205/
+GitHub: https://github.com/klx205
+Lessons Learned & Future Plans
+Feasibility is a key aspect of every project—one needs a supportive team to scale complex ideas. It’s also crucial to manage expectations and adapt the project to regulatory realities. While the technical prototype is complete, the legal hurdles for a cross-border brokerage platform are significant. Due to this, the project will likely not continue in the near term.
+Project Materials
+Presentation Deck: https://pitch.com/v/uninvestable-final-pitch-29u6bm
+Demo Video: UNINVESTABLE_demo_video.mp4
+Documentation: Xiong_Kevin_BTE Capstone Proposal
+Visuals:
+● Logo.png
+● Hero Image.png
+● Business Intelligence AI Prototype.png
+● Business Intelligence Landing.png
+● Main Page.png
+● Wireframe Prototype.png
+● System Diagram: https://drive.google.com/file/d/1qc7Qw3CxxWoiyfAbBXga7kkTsxK6t3HB/view?usp=sharing
+Keywords
+Macro, AI, Trading, Investing, Information
+Team Advisor
+Diego

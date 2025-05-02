@@ -1,0 +1,75 @@
+Muscle Memory
+Project Description
+● Many couples struggle to stay consistent with their gym routines due to a lack of motivation or accountability.
+● Muscle Memory solves this by encouraging couples to work out together through reward-based incentives.
+● The app tracks joint attendance and offers rewards like discounts or free classes for completing “muscle missions”.
+● Key features include a home page showing active and completed muscle missions along with earned discounts, a rewards page where users can select new goals, and a tracking feature that verifies gym attendance via check-ins and adds progress to the goal.
+● This system fosters teamwork, consistency, and makes fitness a more engaging, goal-driven experience for couples.
+Key Features
+Muscle Missions
+Customizable goals that couples can complete together.
+Progress Tracking
+Check-in verification system tracks gym visits and logs progress.
+Rewards Dashboard
+Earn and redeem rewards from local business partners.
+Customization
+Users can create their own rewards for self-motivation.
+Gamification
+Celebrate achievements with a congratulations screen.
+Main Feature Showcase
+Key visuals include:
+● workout_logging.png – Log workouts and view the reward in progress
+● home.png – View previously achieved rewards and current muscle mission
+● congrats.png – View earned rewards and redemption instructions
+● muscle_missions.png – Select from different difficulty levels with rewards
+● customize.png – Users define their own reward and set goals
+Our Story
+Both of us enjoy working out and are very familiar with the lack of motivation when it comes to going to the gym. We also know that there are many fitness apps available, yet they all rely on the user’s personal motivation. We wanted to build a solution for people who understand the value of fitness, but have trouble prioritizing it.
+Problem We're Solving
+Many beginners struggle to maintain a consistent gym routine due to busy schedules, lack of motivation, or limited accountability. Traditional fitness apps are effective when the user has individual motivation, but there is a need for a solution that encourages people to stay committed to their fitness journeys together by rewarding them for their consistency and teamwork.
+Our Solution
+The solution is an app called Muscle Memory that motivates couples to maintain a consistent gym routine by tracking their joint attendance and rewarding them for meeting shared fitness goals. By partnering with local businesses to provide rewards such as free classes and discounts on purchases as well as leveraging the inherent accountability within relationships, Muscle Memory bridges the motivational gap between starting to work out and seeing progress.
+Market Analysis
+● 27.5% of adults do not meet recommended physical activity levels.
+● 50% of new gym users drop out within 6 months; one-third cancel memberships annually.
+● Two-thirds of gym members have memberships but don’t go regularly.
+● Only 6% of people with a partner dropped out, compared to 43% without a partner.
+Key Product Features
+Studies show that app users engage in more fitness activity, especially when gamified. Muscle Memory fills the gap by offering rewards and accountability for couples to stay engaged.
+Technical Approach
+Xcode Swift for iOS app development
+SwiftUI framework for user interface
+ObservableObject pattern for state management
+SwiftUI animations for a dynamic congrats page
+About the Creators
+Jarrett Zheng, Co-Founder, Product Manager, UI/UX Designer
+My name is Jarrett and I am currently a junior in NYU’s Business, Technology, and Entrepreneurship major. I’ve worked on several apps, focusing on user experience and integration. I love working out with friends and I’m excited to build Muscle Memory to motivate people to stay consistent and accountable in their fitness journey.
+LinkedIn: www.linkedin.com/in/jarrett-zheng-b01370263
+George Ai, Co-Founder, App Developer
+My name is George, and I am a junior in the Business, Technology, and Entrepreneurship program at NYU. I had experience in Product Management and Software development. I love working out and am excited to apply my expertise in business and tech to build Muscle Memory into an impeccable fitness experience.
+LinkedIn and GitHub: [Insert links]
+Lessons Learned & Future Plans
+Lessons Learned:
+● Building a game isn’t as easy as making a fun feature and hoping engagement will follow.
+● Building without a clear image of a user in mind leads to many features but no direction.
+● Targeting a niche market and designing around a key user problem creates more actionable insights.
+Future Work / Next Steps:
+● Target couples that are beginner gym-goers for initial adoption.
+● Refine reward types and difficulty levels.
+● Expand market reach to include general gym-goers as engagement improves.
+Project Materials
+Project Logo: MuscleMemoryLogo.png
+Hero Image: MuscleMemory_png_HeroImage.png
+Demo Video: MuscleMemory_mov_demo.mov
+User Flowchart: MuscleMemory_png_UserFlowchart.png
+Business Diagram: MuscleMemory_png_BusinessValueDiagram.png
+Documentation: Project Proposal
+Keywords
+Couples, fitness, rewards, motivation, gym
+Team Advisor
+Tomer Molovinsky
+Acknowledgments
+● Tomer Molovinsky – for business partnership ideas
+● Professor Ashish Bhatia – for helping refine our focus
+● Professor Christian Grewell – for AI and prototyping advice
+● BTE Spring Capstone Class of 2025 – for product feedback and story support

@@ -1,0 +1,72 @@
+LocaleLens
+Project Description
+● LocaleLens is not only a better apartment search platform, it acts as a virtual broker.
+● LocaleLens first brings new data to users through apartment listing descriptions, making the apartment search easier than ever before with nuanced, natural language search.
+● Then, when a user saves their favorite search terms, LocaleLens acts as a virtual broker by sending notifications to users when new apartment listings get uploaded through our StreetEasy apartment listing access.
+● This way, users are the first to know when a potential apartment is available, and it will be exactly what they are looking for, every time.
+Key Features
+Smart Search
+Natural language understanding improves search relevance.
+Saved Searches
+Users save their preferences to get targeted results.
+Real-Time Notifications
+Users are alerted instantly when a new match is listed.
+StreetEasy Integration
+Access thousands of live listings via RapidAPI.
+Virtual Broker Experience
+The platform proactively serves apartment suggestions based on saved preferences.
+Main Feature Showcase
+Key visuals include:
+● Search bar with different filters
+● Results page for different searches
+● Account creation page to receive real-time alerts for new apartments, acting like a 24/7 real estate agent
+Our Story
+We were motivated to pursue this project because of the struggles we faced when finding a new apartment. We’ve both experienced the competitiveness of the apartment hunt, gone on multiple (disappointing) tours, and spent weeks trying to find the best apartment for us.
+Problem We're Solving
+The NYC apartment search is competitive, time-consuming, and broker fees are expensive.
+Our Solution
+Smarter search and real-time alerts of new listings that match what NYC renters want give them a head start on their dream apartment with a 'virtual broker.'
+Market Analysis
+● Target Market: First-time movers to NYC
+● Market Size: 1.5 million movers annually, user value estimated at $50 → $75 million
+● Competitors: StreetEasy, Zillow, Redfin
+● Insight: People prioritize convenience and are willing to pay premiums for time-saving tools.
+Key Product Features
+● Semantic Search Algorithm – enhances listing relevance
+● Real-time Alerts – users stay ahead of the apartment competition
+● Saved Search Terms – creates a virtual broker profile to automatically scout listings
+Technical Approach
+Backend: Google CloudRun, semantic search (Python GitHub repo)
+Database: MySQL
+APIs: RapidAPI (StreetEasy data)
+Frontend: Vercel (Vite + TypeScript + React + Tailwind CSS + shadcn-ui)
+Technical Challenges
+Effective search functionality required switching between semantic search and ChatGPT-based processing to get the desired speed and relevance. Additionally, developing a modern frontend proved difficult, so the team used new tools such as Lovable and Vercel to deliver a robust and clean user experience.
+About the Creators
+Jonathan Sidi, Co-Founder
+Jonathan is a junior at NYU Stern studying Business, Technology, and Entrepreneurship with a minor in Math and Computer Science. He has always loved digging into data, and most recently worked as a product management intern at Baton Media. Jonathan plans to use his technical and entrepreneurial skills to explore a career in making better product decisions as a product manager.
+LinkedIn: https://www.linkedin.com/in/jonathan-sidi
+Charlie Hu, Co-Founder
+Charlie is a junior at NYU Stern studying Business, Technology, and Entrepreneurship. He’s passionate about trying new things and exploring different industries. Because of this, he has experience in venture capitalism, consulting, and product management.
+LinkedIn: https://www.linkedin.com/in/charles-hu-15447a250/
+Lessons Learned & Future Plans
+Lessons Learned:
+● Understanding the apartment search process from the renter’s perspective enabled deeper empathy in product design.
+● Search algorithms require a careful balance of complexity and speed.
+● Notification systems must be efficient and timely to offer a true competitive advantage.
+Future Work / Next Steps:
+● Finish real-time notification system integration with saved search queries.
+● Refine the AI broker component to handle more complex preferences.
+● Launch MVP with new user onboarding and feedback system.
+● Expand data coverage beyond StreetEasy listings.
+Project Materials
+Demo Video: [To be submitted by 9PM]
+Documentation: BTE Capstone Proposal - LocaleLens
+Final Presentation: LocaleLens Final Presentation
+Keywords
+Apartment hunt, Better search, AI real estate agent
+Team Advisor
+Phil Hayes
+Acknowledgments
+● Professors Ashish Bhatia and Christian Grewell – for guidance, refinement, and support throughout the semester.
+● Phil Hayes – for mentoring us through product challenges and giving strategic direction to our vision.

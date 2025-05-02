@@ -1,0 +1,62 @@
+LoadWise
+<!-- INSTRUCTIONS: 1. Replace image paths with links to your actual images 2. Add or remove sections as needed for your project 3. Example image URLs are provided as comments -->
+Project Description
+LoadWise is a mobile application that helps marathon runners and triathletes optimize their training and recovery through personalized load management metrics.
+The platform integrates with Strava and Apple Health to analyze real-time training data.
+Smart algorithms provide actionable, personalized rest and training suggestions based on user performance.
+Advanced analytics track cumulative workload and potential injury risks to prevent overtraining.
+The system seamlessly connects with popular fitness tracking platforms for a smooth user experience.
+Mobile app allows athletes to monitor their training status on-the-go and adjust workouts as needed.
+Adaptive technology adjusts recommendations based on individual performance and recovery patterns.
+Successfully developed as a fully functional prototype ready for App Store release.
+Key Features
+Training Load Analysis
+Utilizes proven load algorithms to track cumulative workload and analyze training intensity to prevent overtraining.
+Personalized Recommendations
+Provides actionable, data-driven suggestions for training intensity and recovery based on individual performance metrics.
+Injury Risk Assessment
+Monitors fatigue levels and training patterns to identify potential injury risks before they become problems.
+Integration with Popular Platforms
+Works seamlessly with Strava, Apple Health, and other fitness tracking platforms to consolidate all training data.
+Main Feature Showcase
+<!-- Example URL: https://example.com/images/loadwise_dashboard.jpg -->
+The LoadWise dashboard provides athletes with a comprehensive view of their training load, fatigue levels, and personalized recommendations in an easy-to-understand interface.
+Our Story
+The idea for LoadWise was born when Ben Trask and Conor Kelly, both seniors at NYU Stern with a passion for sports and fitness, identified a significant gap in the tools available to inexperienced marathon runners and triathletes. Through extensive research and user feedback, they developed a platform that addresses the challenge of training optimization and injury prevention. The development process involved iterative prototyping based on constant user feedback, resulting in a platform that's both powerful and intuitive. LoadWise is designed to make a meaningful impact for athletes who lack access to sophisticated training management tools.
+Problem We're Solving
+Marathon runners lack accessible tools to track cumulative workload and personalized help to make data-informed decisions about training intensity and recovery, which can lead to overtraining and injury.
+Our Solution
+LoadWise integrates with Strava and Apple Health, analyzes real-time training load, provides actionable, personalized rest & training suggestions, and tracks injury risk using proven load algorithms.
+Market Analysis
+Total Addressable Market: 750 million
+Serviceable Addressable Market: 30 million
+Serviceable Obtainable Market: 600,000
+50 million regular runners in the US
+2.1+ million half-marathon runners per year
+Key Product Features
+Real-Time Training Analysis
+<!-- Example URL: https://example.com/images/training_analysis.jpg -->
+Analyzes training intensity and volume in real-time to provide immediate feedback on workout effectiveness and recovery needs.
+Injury Prevention Insights
+<!-- Example URL: https://example.com/images/injury_prevention.jpg -->
+Tracks key metrics that indicate increased injury risk, helping athletes make smarter decisions about when to push and when to rest.
+Technical Approach
+We developed LoadWise using Windsurf and XCode, with assistance from ChatGPT. As co-founders with limited coding experience, we leveraged AI tools to overcome technical challenges and create a functional prototype.
+About the Creators
+<!-- Example URL: https://example.com/images/conor_kelly.jpg -->
+Conor Kelly Co-Founder
+Senior at NYU Stern in BTE. Originally from Riverside, CT. Passionate about combining technology with athletic performance to help runners and triathletes optimize their training. LinkedIn
+<!-- Example URL: https://example.com/images/ben_trask.jpg -->
+Ben Trask Co-Founder
+Senior at NYU Stern in BTE. Former NYU Varsity Men's soccer player. Driven by a passion for sports and fitness, with a vision to create technology that makes a meaningful impact for athletes. LinkedIn
+Lessons Learned & Future Plans
+Through this project, we gained a deeper understanding of the struggles that competitive runners face due to the lack of accessible tools. We realized the power of AI tools like ChatGPT and Windsurf co-pilot in app development, even with limited experience. We plan to continue exploring how we can expand this project and integrate tools specifically designed for triathletes.
+Project Materials
+Presentation Deck
+Demo Video
+<!-- Example URL: https://example.com/videos/loadwise_demo.mp4 -->
+Keywords
+Triathlete, Marathon, Training, Optimization, Injury, Detection
+Team Advisor
+Daniel Nelson
+

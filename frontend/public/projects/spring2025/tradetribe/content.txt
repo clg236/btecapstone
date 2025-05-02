@@ -1,0 +1,71 @@
+TradeTribe
+Project Description
+● TradeTribe is an emotional training platform for beginner student options traders, designed to build discipline and reduce impulsive trading behavior through structured trade logging, emotional check-ins, and AI-powered feedback.
+● Instead of focusing on execution like most trading tools, TradeTribe targets emotional triggers—such as FOMO, revenge trading, and overconfidence—that often cause beginners to lose money and quit.
+● Users simulate trades on platforms like TradingView, then return to TradeTribe to log decisions and complete pre- and post-trade emotional check-ins.
+● The platform’s AI analyzes user responses, assigns a Readiness Score (0–100), and delivers personalized feedback to help traders recognize patterns and improve emotional control over time.
+● Built on Glide, TradeTribe is pioneering emotional intelligence as a core component of trading education—aiming to become the “Strava for trading discipline.”
+Key Features
+Emotional Check-Ins
+Guided pre- and post-trade questions help users recognize their emotional state and decision-making process.
+Readiness Score
+AI-generated score tracks emotional readiness and offers personalized feedback based on journal entries.
+Trade Logging
+Users log trade details to monitor patterns like revenge trading and hesitation.
+Integration with TradingView
+Users simulate trades externally and return to TradeTribe for reflection and scoring.
+Main Feature Showcase
+Key visuals include:
+● Pre-trade questionnaire
+● Post-trade check-in
+● Dashboard with Readiness Score
+● Trade logging history
+Our Story
+TradeTribe was born from firsthand experience with the emotional highs and lows of trading. I battled with emotional discipline—and honestly, I’m still working on it. I wiped out my starter capital not due to strategy, but due to emotional triggers. That’s when I realized—success in the markets isn’t just about strategy, it’s about mindset. That’s what TradeTribe is here to train.
+Problem We're Solving
+Over 90% of beginner options traders lose their capital within the first 3 months—not due to a lack of knowledge, but because of emotional triggers. Most trading platforms focus on execution and market access, offering little to no support for managing the psychological side of trading. Without emotional awareness tools, new traders repeat mistakes, lose confidence, and quit before ever developing the discipline needed for long-term success.
+Our Solution
+Our solution is an emotional trading platform where beginner student options traders build discipline and confidence through structured trade logging and AI-powered feedback. Users complete guided pre- and post-trade emotional check-ins, log trade details, and receive a personalized Readiness Score that evolves over time. Integrated with TradingView for simulated trades, TradeTribe helps users identify patterns like impulsiveness, hesitation, and revenge trading—turning emotional awareness into a consistent, growth-oriented habit.
+Market Analysis
+● 30% of options traders are under 30 years old.
+● Retail investing surged 150% post-2020, but emotional readiness tools have not evolved alongside this growth. (Bloomberg)
+● Options trading volume exceeds $12B/day.
+● FOMO, revenge trading, and overconfidence are consistently cited in research as top reasons for poor trade outcomes. (The Journal of Behavioral Finance)
+● Emotional errors account for more than 80% of trading mistakes. (Forbes)
+● Platforms like Robinhood saw 22.5 million users by 2023, but provide no emotional analytics or psychological tools. (Internal Market Research)
+Key Product Features
+Emotional Scoring Model
+Assigns a Readiness Score from 0–100 to quantify emotional preparedness.
+Reflection Loop
+Encourages users to reflect on decisions and build long-term emotional discipline.
+Habit Tracking
+Captures emotional patterns and trading behaviors to reinforce intentional habits.
+Technical Approach
+Glide: Built the entire front-end of the TradeTribe app, including form logic, user accounts, and AI integrations.
+Glide AI: Used for emotional feedback generation based on user check-ins, automating analysis of trading behavior.
+Glide Tables: Structured trade logs, emotional check-in responses, and scoring logic using relational databases.
+TradingView: Used for realistic market simulation; users paper trade outside the app and log results within TradeTribe.
+About the Creator
+Kaylen Tolliver, Founder
+My name is Kaylen Tolliver, and I’m a senior at NYU studying Business, Technology, and Entrepreneurship through the BTE program. Originally from Chicago, Illinois, I’m passionate about using my creativity to solve real-world problems.
+Lessons Learned & Future Plans
+Lessons Learned:
+● Emotional design requires empathy, not just features.
+● Simplicity is harder to achieve than complexity.
+● Real user feedback always reveals what you can’t predict.
+● Tracking behavior over time is more powerful than one-time inputs.
+● Emotional wins matter just as much as a good trade.
+Future Work / Next Steps:
+● Expand the AI model to include deeper emotion tagging and context analysis.
+● Build a more transparent scoring system that shows users how their Readiness Score evolves.
+● Integrate with more trading platforms beyond TradingView.
+● Add data visualizations to show emotional trends over weeks and months.
+● Launch a small trading program to test growth and user feedback.
+Project Materials
+App Link: TradeTribe
+Project Proposal: included in documentation
+Visuals: Pre-trade questionnaire, Post-trade check-in, Dashboard with Readiness Score, Trade logging history
+Keywords
+Psychological, Discipline, Reflection, Emotional
+Team Advisor
+James Walsh

@@ -1,0 +1,134 @@
+
+PROPOSAL
+
+“[LONGER PROPOSAL TITLE HERE IF YOU HAVE ONE…”
+[Mariam Ouedraogo, Class of 2025]
+
+
+Summary
+[Briefly introduce your project]
+
+Many Muslims around the world memorize the Quran. The holy book of Islam which is believed to be the word of Allah spoken to Angel Jibrael and revealed to our Prophet (pbuh). In the Quran, there are stories of previous Prophets, nations, and legislation, and all in all, it is a guidance for Muslims. The Quran itself is a miracle and has been preserved for over 1,400 years. A huge aspect of this preservation are those that memorize the quran. In Islam they are viewed as guardians of the Quran. 
+
+However, one of the greatest struggles of students memorizing the Quran is retaining what they’ve previously memorized and their new memorization. This is understandable since it is a book with 114 chapters and 604 pages.
+Oftentimes students are expected to know how to do this on their own despite busy schedules and only attending classes once or twice a week. Can they possibly have a teacher they can carry with them? Or an organizer where they can pick up where they left off? Keeping all of this information in one's brain can lead to crash/burnout from overload. Creating an app or website will allow them to put this organization elsewhere. 
+
+Motivation
+[What is your personal motivation to pursue this project/topic? Is there any effectual element to your project selection]
+
+I am a student currently memorizing the Quran. I am currently undergoing an intensive process with my new Quran teacher where I am cementing my previous memorization that is weak from having a poor revision schedule. This means I recite about 10 - 20 pages of my previous memorization from memory and also half a page of my new memorization. This is done every day! Imagine there are many moving parts. 
+
+Prior to being with my new teacher I only went to class once or twice a week and was expected to do this alone. I was very overwhelmed and oftentimes would stop out of frustration. This exacerbated the problem because the more time you spend without reviewing old memorization the more work it will take to retain it. 
+
+
+Background Work/Research
+[What research and prior work have influenced your project and research process? What insights have you gained about your proposed project as a result?]
+
+In high school I worked on a research project that was centered on flow state. I studied Milhaly Csiksanmihaly’s insight on flow. My research was centered around understanding what is the best method of memorizing the quran. The answer was pretty self explanatory, lots and lots of repetition and intense focus for a specific allotted time. 
+
+Problem Definition*
+[Define the problem your project attempts to solve here, and for whom (customer/audience) you are solving the problem. Include an appendix with notes from at least 10 customer interviews that are part of specific customer segment]
+
+I sent out a google form where I received 20+ responses and interviewed 5 Muslim women. The most repeated struggles when it came to their Quran memorization were:
+
+Consistency 
+Motivation
+Discipline
+Routine 
+Scheduling 
+Distractions
+Finding a female teacher 
+Revision (revising their previously memorized pages)
+
+
+
+
+
+
+
+Market Analysis 
+[Define the market, key competitors, market size, and barriers to entry. Please include secondary research from the business library.]
+
+Existing apps: 
+Quranexplorer
+quran.com 
+Al Muqri 
+
+
+
+
+Work Plan
+[What is your work plan for the Spring 2025 semester broken down into 2 week sprints? What is the overall timeline, and specific work steps and goals for each sprint? ]
+
+Weekly Action Steps for Your Capstone Project
+Sprint 1: Entrepreneurship (Weeks 1-2)
+✅ Week 1 (Jan 21-27) – Conduct 10+ interviews with Muslim women on their hifdh struggles and analyze responses for common themes (consistency, discipline, scheduling). Start drafting Project Proposal (Section 1) with a focus on problem definition and user needs.
+✅ Week 2 (Jan 28 - Feb 3) – Finalize and submit Problem Definition & Market Analysis. Create a Lightning Presentation summarizing research insights and schedule a meeting with your Project Advisor.
+
+Sprint 2: Tech (Weeks 3-4)
+✅ Week 3 (Feb 4 - Feb 10) – Outline key app features (hifdh tracking, period reminders, motivational messages) and create low-fidelity wireframes. Develop a tech plan document that defines tools, frameworks, and initial prototype structure.
+✅ Week 4 (Feb 11 - Feb 17) – Build a clickable prototype for testing and conduct usability tests with at least 5 users. Present Tech Demo #1, gather feedback, and update technical documentation based on insights.
+
+Sprint 3: Business (Weeks 5-6)
+✅ Week 5 (Feb 18 - Feb 24) – Draft a Business Model Canvas identifying revenue streams (freemium, premium features, partnerships). Conduct 5+ interviews focusing on pricing and feature preferences.
+✅ Week 6 (Feb 25 - Mar 2) – Finalize the Business Model Canvas and refine the prototype with user feedback. Present Process Presentation #1, update Project Documentation, and prepare for the next development phase.
+
+Sprint 4: BTE Integration (Weeks 7-8)
+✅ Week 7 (Mar 3 - Mar 9) – Integrate UI/UX improvements and finalize the core app flow (goal-setting, tracking, reminders). Conduct second-round usability testing to refine features.
+✅ Week 8 (Mar 10 - Mar 16) – Prepare for the Midterm Presentation showcasing a working prototype and customer insights. Gather feedback from mentors and plan improvements for the next iteration.
+
+Sprint 5: Refinement (Weeks 9-10)
+✅ Week 9 (Mar 17 - Mar 23) – Implement advanced user tracking (streaks, accountability reminders) and refine app logic. Conduct 5+ user tests with a focus on engagement and retention strategies.
+✅ Week 10 (Mar 24 - Mar 30) – Present at Tech Demo Day and gather structured feedback. Iterate product features based on user testing and finalize a monetization strategy.
+
+Sprint 6: Final Preparations (Weeks 11-12)
+✅ Week 11 (Mar 31 - Apr 6) – Add final feature refinements (advanced notifications, goal insights) and conduct final usability testing. Prepare the Final Presentation Draft.
+✅ Week 12 (Apr 7 - Apr 13) – Conduct a last round of testing with 10+ users, finalize UI adjustments, and prepare marketing materials for the Product Exhibition.
+
+Final Weeks (Weeks 13-14)
+✅ Week 13 (Apr 14 - Apr 20) – Deliver the Final Project Presentation and demonstrate the product to mentors. Collect feedback and polish final documentation.
+✅ Week 14 (Apr 21 - Apr 28) – Present at the Product Exhibition and submit the Final Product Documentation. Wrap up reflections and outline post-capstone opportunities.
+
+
+
+
+
+
+
+
+
+
+
+II. PROTOTYPES, TESTING AND BUSINESS PLAN
+
+Prototypes (MVPs)
+[This section is an introduction to your project - save this until last, you’ll want to summarize your prototypes and the proposed eventual outcome of your project]
+
+MVP Assumption Testing 
+[Describe the key assumptions you identified your project and how tested, received feedback, and iterated your design. What metrics for value creation were most important to you? How will you know your project has / has not created the anticipated value / impact?]
+
+Business Model
+[Complete a business model canvas for your project. If appropriate describe the unit economics of the product and how the business or feature can be profitable]
+
+
+
+
+
+
+
+
+Next Steps
+[Summarize the next phase of your project, as well as the barriers and opportunities you see after your project is complete]
+
+Reflection
+[What were the key 3-5 learning experiences you had this past semester related to your capstone project? What insights will you take forward into your work next semester, and after graduation?]
+
+Acknowledgements 
+[What were the key 3-5 learning experiences you had this past semester related to your capstone project? What insights will you take forward into your work next semester, and after graduation?]
+References
+[1] “Title”, Author, Source
+
+
+
+
+

@@ -1,0 +1,73 @@
+Synced
+Project Description
+● Synced is a digital platform designed to ease the emotional and practical tensions between aging parents and their family caregivers.
+● As older adults begin to need more support, they often struggle with the fear of losing independence—while caregivers struggle with how to help without overstepping.
+● This mismatch can lead to conflict, resentment, and unclear care decisions.
+● Synced bridges this gap through a two-sided approach: guided questionnaires that reveal misalignments, real-time AI-mediated conversations that foster mutual understanding, and optional access to healthcare professionals for families seeking additional support.
+● Unlike tools that simply push older adults to hand over control, Synced empowers both parties to engage in shared decision-making—ensuring that care feels respectful, collaborative, and human.
+Key Features
+Guided Questionnaires
+Reveal areas of misalignment in values, expectations, and care goals.
+AI-Mediated Conversations
+Help families simulate difficult discussions and uncover mutual understanding.
+Access to Professionals
+Optional access to healthcare experts for mediation and guidance.
+Shared Decision-Making Tools
+Encourage both sides to collaborate instead of creating control hierarchies.
+Main Feature Showcase
+Key visuals include:
+● Homepage walkthrough and AI conversation simulator
+● Questionnaire response interface
+● Shared insights dashboard
+● Mediation prompt examples
+Our Story
+Synced was born when students Claudia Chacón and Julia Elefant teamed up to try to make aging a more connected, compassionate journey for families. Because both women have grandmothers who faced the painful transition from independence to needing daily support, they saw firsthand how hard it was for everyone involved.
+Problem We're Solving
+It’s often hard for aging parents to let go of control to family caregivers due to fears of losing independence, creating challenges in caregiving.
+Our Solution
+Our solution is a web-based platform powered by AI that helps families navigate tough caregiving conversations with empathy. Through interactive tools and personalized dialogue simulations, it empowers aging parents to feel heard while guiding caregivers toward collaborative, trust-based decisions.
+Market Analysis
+● Elderly Care Services: $833.3B (2023) projected to $1.1T by 2029 (5% CAGR).
+● Caregiver Apps: $1.38B (2023) projected to $3.67B by 2031 (15% CAGR).
+● Elderly Care Apps: $11.4B by 2032 (13.9% CAGR).
+● 60% of surveyed community members used AI for quick support; 47% used AI as a personal therapist.
+Key Product Features
+Questionnaire Engine
+Captures caregiving tension points through structured user inputs.
+AI Mediation Module
+Uses GPT-based prompts to help family members talk through emotional issues.
+Care Decision Journal
+Lets both parties log thoughts and changes over time to reduce friction.
+Access to Experts
+Optional access to professionals trained in geriatric care for further help.
+Technical Approach
+Canva Website Builder: Used for visual layout and web deployment.
+Typeform: Collected structured survey data from both caregivers and elderly individuals.
+ChatGPT: Simulated emotionally sensitive conversations to help families prepare and reflect.
+About the Creators
+Claudia Chacón, Co-Founder
+Claudia is a senior at NYU Stern studying Business, Technology, and Entrepreneurship. She has had a passion for the elder care space ever since her grandmother was diagnosed with PSP, which sparked her interest in designing thoughtful, human-centered solutions for aging populations.
+LinkedIn: www.linkedin.com/in/claudiachacon03
+Julia Elefant, Co-Founder
+Julia is a senior at NYU Stern studying Business, Technology, and Entrepreneurship. She initially wasn't planning on designing anything in the geriatric care industry, but after bonding with Claudia over their grandmothers’ stories, she decided there was no other industry she'd rather design something for.
+LinkedIn: https://www.linkedin.com/in/julia-elefant-380175238/
+Lessons Learned & Future Plans
+We learned that effective caregiving isn’t just about logistics–it’s about trust, communication, and mutual respect. Building Synced showed us that facilitating honest, balanced conversations requires more than just good intentions; it requires carefully crafted tools that validate both voices and repair the relational gaps that often go unspoken.
+Goals:
+● Redefine control in the context of aging by fostering collaborative decision-making between elderly individuals and their caregivers.
+● Build trust between aging parents and their adult children through accessible, empathetic tools.
+● Help families plan proactively for major life transitions (e.g., moving, driving cessation, financial management).
+● Empower elderly individuals to feel respected and included in conversations about their care.
+● Provide educational and emotional resources to adult children navigating new caregiving roles.
+This project is successful if it helps families have smoother, more compassionate conversations about aging. Success means elderly parents feel more in control, not less, and that their children feel supported rather than overwhelmed. A truly successful outcome would be a product that families actually use to reduce conflict, foster trust, and make difficult decisions together.
+Target Audience / Users
+● Aging Parents – Individuals entering later stages of life who may need support with lifestyle, health, or safety decisions but want to maintain independence.
+● Family Caregivers – Primarily adult children who are beginning to take on responsibilities for their aging parents and need help navigating complex emotional and logistical dynamics.
+Project Materials
+Image Folder: https://drive.google.com/drive/folders/16KxWDZiTCWbMsADQETVozpVeAGDbj9-R
+Documentation: https://docs.google.com/document/d/1eHae-ZR6unW6G2_gEU5ATFmF8_aK0Ol7mtubI2I70jg/edit?usp=sharing
+Presentation Deck: https://www.canva.com/design/DAGkQ6SJqVE/8UGswXlotBtegnEODiW6Nw/edit?utm_content=DAGkQ6SJqVE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Keywords
+Aging, Caregiving, Control, Empathy, AI Technology
+Team Advisor
+Shivani Verma

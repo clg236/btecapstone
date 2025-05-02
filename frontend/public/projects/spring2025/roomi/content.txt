@@ -1,0 +1,65 @@
+Roomi
+Project Description
+● Roomi is a roommate-matching service based on the logistics that truly matter: move-in timelines, budgets, and preferred neighborhoods.
+Key Features
+Smart Matching
+Connects users based on timing, budget, and location—not personality.
+Survey-Based Profiles
+Users fill out a short form to create a profile that captures critical move-in logistics.
+NYC Focus
+Tailored specifically for young movers looking for roommates in New York City.
+Matching Algorithm
+Back-end algorithm built in Excel using logic informed by survey inputs and matching rules.
+Main Feature Showcase
+Key visuals include:
+● Roomi Survey
+● Website home and form experience
+● Marketing visuals (QR code deployments)
+Our Story
+As college seniors preparing to graduate and move to new cities, we are actively thinking about how we are going to find housing with great roommates. That’s what led to the creation of Roomi.
+Problem We're Solving
+Proactive movers often plan ahead and want a roommate for affordability, safety, companionship, etc., BUT struggle to find someone in their network who is also looking and meets their criteria.
+Our Solution
+Roomi is a smart roommate-matching platform that connects proactive movers based on what really matters—timing, budget, and neighborhood. For those who want a roommate for affordability, safety, or companionship but can’t find the right match in their network, Roomi makes it easy to connect with compatible people planning a move on the same terms.
+Market Analysis
+● Shared accommodation market includes Roomster, Craigslist, and Airbnb.
+● Roomi is focused specifically on NYC.
+● There are about 120K young movers actively seeking roommates in NYC.
+Key Product Features
+Concise Survey Design
+Refined through iterations to include only essential matching questions.
+Logistics First
+Unlike competitors focused on personality, Roomi matches based on budget, neighborhood, and timeline.
+Survey to Match Pipeline
+Users complete the Roomi survey and are matched using an Excel-based algorithm.
+Technical Approach
+Canva: Used to host and create a website.
+Jotform: Used for Roomi survey creation.
+Excel: Used to track Roomi users and implement a matching algorithm.
+ChatGPT: Used to assist with the matching algorithm.
+Technical Challenges
+A key technical challenge we faced was determining the right parameters for a matching algorithm that accurately reflects user priorities to ensure high-quality, compatible matches in real time. This was especially difficult when we were still focused on personality compatibility, as we had to account for a wide range of lifestyle factors and personal interests—like cleanliness, social habits, sleep schedules, and hobbies—while preventing the algorithm from becoming either too rigid or too lenient.
+About the Creators
+Karla Murueta, Co-founder
+Karla is a senior at NYU Stern in the BTE program. She has experience in Product Management and Business Analytics, and a passion for education. Karla will be working full-time at Verisk Analytics as a Product Specialist following graduation.
+LinkedIn: https://www.linkedin.com/in/karla-murueta/
+Sarah Munis, Co-founder
+Sarah is a senior at Stern’s BTE program and is minoring in producing at NYU Tisch. She has experience in consulting. She will be working full-time at Accenture Song as a Consulting Analyst in San Francisco after graduation! Wish her luck!
+LinkedIn: https://www.linkedin.com/in/sarah-munis-240816181/
+Lessons Learned & Future Plans
+● Pivoting from personality-based to logistics-based matching captured a clear niche in the market.
+● Concise, well-designed surveys increase trust and participation.
+● Audiences respond better to design-forward platforms when sharing personal info.
+Future Work / Next Steps:
+● Partnership with NYC universities, starting with NYU Residential Life and Housing Services.
+● Allow students to opt-in and create a Roomi profile and access roommate matches with fellow students.
+Project Materials
+Documentation: BTE Capstone Proposal.docx
+Demo Video: https://www.loom.com/share/8b7a8a95cdb841e4a96710dceea07dfc?sid=a53898ab-8bb4-4eb5-b172-73f550b22fe4
+Final Slide Deck: https://www.canva.com/design/DAGl2e-4nwQ/BxWbLRZjgkOQc2Nsa5vXaw/edit?utm_content=DAGl2e-4nwQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Keywords
+Roommate Matching, NYC, Logistical Compatibility
+Team Advisor
+Guthrie Collins
+Acknowledgments
+Shout-out to our amazing mentor, Guthrie! He was such a supportive, helpful, and reliable mentor!
