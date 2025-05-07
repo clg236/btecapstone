@@ -226,19 +226,13 @@ const ProjectShowcase = () => {
                       {project.team.length === 1 ? 'Founder' : 'Founders'}
                     </h4>
                     <div className="space-y-2">
-                      {project.team.map((member, index) => (
-                        <div key={index} className="flex items-center justify-between">
-                          <span className="text-sm text-gray-600">{member.name}</span>
-                          <a
-                            href="#"
-                            className="p-1 rounded-full hover:bg-gray-100 transition-colors"
-                            title="Connect on LinkedIn"
-                          >
-                            <Linkedin className="h-4 w-4 text-blue-600" />
-                          </a>
-                        </div>
-                      ))}
-                    </div>
+  {project.team.map((member, index) => (
+    <div key={index} className="flex items-center">
+      <span className="text-sm text-gray-600">{member.name}</span>
+      {/* Optionally, add LinkedIn if you have the URL, but no avatar or image */}
+    </div>
+  ))}
+</div>
                   </div>
                   <a 
                     href={project.link}

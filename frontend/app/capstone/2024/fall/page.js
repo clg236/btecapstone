@@ -15,10 +15,7 @@ const BTEHomePage = () => {
       description: 'A comprehensive fantasy sports and social betting platform that enhances the sports viewing experience through friendly competition.',
       imageUrl: '/projects/brobets/hero.png',
       route: '/capstone/2024/fall/projects/brobets',
-      teamAvatars: [
-        'https://randomuser.me/api/portraits/men/33.jpg', 
-        'https://randomuser.me/api/portraits/women/45.jpg'
-      ] 
+      teamMembers: ['Team Member 1', 'Team Member 2'] 
     },
     { 
       id: 2, 
@@ -26,10 +23,7 @@ const BTEHomePage = () => {
       description: 'A platform connecting independent musicians with venues, fans, and industry professionals to streamline the live music booking process.',
       imageUrl: '/projects/musiconnect/hero.png',
       route: '/capstone/2024/fall/projects/musiconnect',
-      teamAvatars: [
-        'https://randomuser.me/api/portraits/women/62.jpg', 
-        'https://randomuser.me/api/portraits/men/71.jpg'
-      ] 
+      teamMembers: ['Team Member 1', 'Team Member 2'] 
     },
     { 
       id: 3, 
@@ -37,10 +31,7 @@ const BTEHomePage = () => {
       description: 'An AI-driven system for optimizing urban gardens and small-scale agricultural projects to promote sustainable food production.',
       imageUrl: '/projects/eden/hero.png',
       route: '/capstone/2024/fall/projects/eden',
-      teamAvatars: [
-        'https://randomuser.me/api/portraits/men/31.jpg', 
-        'https://randomuser.me/api/portraits/women/91.jpg'
-      ] 
+      teamMembers: ['Team Member 1', 'Team Member 2'] 
     },
     { 
       id: 4, 
@@ -48,10 +39,7 @@ const BTEHomePage = () => {
       description: 'A restaurant reservation and table management system that optimizes dining experiences for both restaurants and customers.',
       imageUrl: '/projects/table-tango/hero.png',
       route: '/capstone/2024/fall/projects/table-tango',
-      teamAvatars: [
-        'https://randomuser.me/api/portraits/women/42.jpg', 
-        'https://randomuser.me/api/portraits/men/79.jpg'
-      ] 
+      teamMembers: ['Team Member 1', 'Team Member 2'] 
     },
     { 
       id: 5, 
@@ -59,10 +47,7 @@ const BTEHomePage = () => {
       description: 'An investment platform that democratizes access to venture capital opportunities for everyday investors.',
       imageUrl: '/projects/innovest/hero.png',
       route: '/capstone/2024/fall/projects/innovest',
-      teamAvatars: [
-        'https://randomuser.me/api/portraits/men/14.jpg', 
-        'https://randomuser.me/api/portraits/women/25.jpg'
-      ] 
+      teamMembers: ['Team Member 1', 'Team Member 2'] 
     },
     { 
       id: 6, 
@@ -70,10 +55,7 @@ const BTEHomePage = () => {
       description: 'A circular fashion marketplace that extends the lifecycle of clothing through AI-powered matching and sustainable practices.',
       imageUrl: '/projects/style-cycle/hero.png',
       route: '/capstone/2024/fall/projects/style-cycle',
-      teamAvatars: [
-        'https://randomuser.me/api/portraits/women/41.jpg', 
-        'https://randomuser.me/api/portraits/men/21.jpg'
-      ] 
+      teamMembers: ['Team Member 1', 'Team Member 2'] 
     },
     { 
       id: 7, 
@@ -81,10 +63,7 @@ const BTEHomePage = () => {
       description: 'An AI-powered travel recommendation system that creates personalized day trip itineraries based on user preferences.',
       imageUrl: '/projects/dreaming-daytrip/hero.png',
       route: '/capstone/2024/fall/projects/dreaming-daytrip',
-      teamAvatars: [
-        'https://randomuser.me/api/portraits/women/51.jpg', 
-        'https://randomuser.me/api/portraits/men/52.jpg'
-      ] 
+      teamMembers: ['Team Member 1', 'Team Member 2'] 
     },
     { 
       id: 8, 
@@ -92,10 +71,7 @@ const BTEHomePage = () => {
       description: 'A risk management platform that helps small businesses identify, assess, and mitigate operational and financial risks.',
       imageUrl: '/projects/risky-business/hero.png',
       route: '/capstone/2024/fall/projects/risky-business',
-      teamAvatars: [
-        'https://randomuser.me/api/portraits/men/61.jpg', 
-        'https://randomuser.me/api/portraits/men/62.jpg'
-      ] 
+      teamMembers: ['Team Member 1', 'Team Member 2'] 
     },
     { 
       id: 9, 
@@ -103,10 +79,7 @@ const BTEHomePage = () => {
       description: 'A personal finance management tool that helps young professionals budget, save, and invest through behavioral economics principles.',
       imageUrl: '/projects/spenser/hero.png',
       route: '/capstone/2024/fall/projects/spenser',
-      teamAvatars: [
-        'https://randomuser.me/api/portraits/women/71.jpg', 
-        'https://randomuser.me/api/portraits/women/72.jpg'
-      ] 
+      teamMembers: ['Team Member 1', 'Team Member 2'] 
     },
     { 
       id: 10, 
@@ -114,10 +87,7 @@ const BTEHomePage = () => {
       description: 'An environmental monitoring platform that helps businesses track and reduce their carbon footprint through IoT sensors and analytics.',
       imageUrl: '/projects/kankyo/hero.png',
       route: '/capstone/2024/fall/projects/kankyo',
-      teamAvatars: [
-        'https://randomuser.me/api/portraits/men/81.jpg', 
-        'https://randomuser.me/api/portraits/women/82.jpg'
-      ] 
+      teamMembers: ['Team Member 1', 'Team Member 2'] 
     },
   ]);
 
@@ -240,24 +210,6 @@ const BTEHomePage = () => {
                           <h3 className="font-medium text-lg mb-2">{project.title}</h3>
                         </Link>
                         <p className="text-gray-600 text-sm mb-4">{project.description}</p>
-                      </div>
-                      <div className="flex -space-x-4 mt-2">
-                        {project.teamAvatars.map((avatar, index) => (
-                          <div 
-                            key={index} 
-                            className="h-10 w-10 rounded-full bg-gray-200 border-2 border-white relative overflow-hidden shadow-md"
-                            style={{ zIndex: project.teamAvatars.length - index }}
-                          >
-                            <div 
-                              className="h-full w-full bg-cover bg-center"
-                              style={{ 
-                                backgroundImage: `url(${avatar})`,
-                                backgroundSize: '100% 100%'
-                              }}
-                              aria-label="Team member avatar"
-                            ></div>
-                          </div>
-                        ))}
                       </div>
                     </div>
                   </div>
