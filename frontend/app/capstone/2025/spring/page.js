@@ -70,7 +70,7 @@ const BTEHomePage = () => {
       title: 'Muscle Memory', 
       description: 'Wearable technology that tracks and analyzes movement patterns to improve athletic performance and prevent injuries.',
       imageUrl: '/projects/spring2025/musclememory/MuscleMemory_png_HeroImage.png',
-      route: '/capstone/2025/spring/projects/muscle-memory',
+      route: '/capstone/2025/spring/projects/musclememory',
       teamAvatars: [
         '/projects/spring2025/musclememory/MuscleMemory_jpg_headshot.jpg',
         '/projects/spring2025/musclememory/MuscleMemory_png_GeorgeHeadshot.png'
@@ -104,11 +104,11 @@ const BTEHomePage = () => {
     { 
       id: 9, 
       title: 'Nisa Focus', 
-      description: 'An educational platform that provides personalized learning experiences for students with attention challenges.',
-      imageUrl: '/projects/spring2025/nisafocus/IMG_2244%202.PNG',
-      route: '/capstone/2025/spring/projects/nisa-focus',
+      description: 'Nisa Focus helps Muslim women organize, track, and improve their Quran memorization and revision routines. Inspired by personal experience and community interviews, the app tackles the real challenges of consistency, motivation, and retention in hifdh (memorization) journeys.',
+      imageUrl: '/projects/spring2025/nisafocus/app_hero.jpg',
+      route: '/capstone/2025/spring/projects/nisafocus',
       teamAvatars: [
-        '/projects/spring2025/nisafocus/IMG_1746.jpg'
+        ''
       ],
       teamMembers: ['Mariam Ouedraogo']
     }

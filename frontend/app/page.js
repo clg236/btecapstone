@@ -3,19 +3,86 @@ import React, { useState, useEffect } from 'react';
 import ProjectCard from "@/components/ui/ProjectCard";
 import TextCard from "@/components/ui/TextCard";
 import Header from "@/components/ui/Header";
+import Link from 'next/link';
 
-const initialProjects = [
-  {"year": "2024", "description": "An innovative solution to streamline online learning experiences.", "name": "Christian Grewell", "cover": "/assets/images/cover_1.png"},
-  {"text": "B"},
-  {"year": "2024", "description": "A breakthrough app for real-time language translation using AI.", "name": "Alexa Smith", "cover": "/assets/images/cover_2.png"},
-  {"text": "T"},
-  {"year": "2024", "description": "A wearable device to monitor and improve posture in real-time.", "name": "Jordan Lee", "cover": "/assets/images/cover_3.png"},
-  {"year": "2024", "description": "A platform for connecting freelance artists with global opportunities.", "name": "Mia Wong", "cover": "/assets/images/cover_1.png"},
-  {"year": "2024", "description": "An AI-driven tool for personalized nutrition and diet planning.", "name": "Ethan Gonzalez", "cover": "/assets/images/cover_3.png"},
-  {"year": "2024", "description": "A virtual reality experience for immersive historical education.", "name": "Sophia Patel", "cover": "/assets/images/cover_5.png"},
-  {"text": "E"},
-  {"year": "2024", "description": "A virtual reality experience for immersive historical education.", "name": "Sophia Patel", "cover": "/assets/images/cover_4.png"},
-
+// Real projects from 2024 and 2025
+const realProjects = [
+  // 2024 Fall Projects
+  {
+    year: "2024",
+    description: "Peer-to-peer platform for placing friendly bets with friends",
+    name: "BroBets",
+    cover: "/projects/brobets/hero.png",
+    route: "/capstone/2024/fall/projects/brobets"
+  },
+  {
+    year: "2024",
+    description: "Connecting talented musicians with gig opportunities",
+    name: "MusiConnect",
+    cover: "/projects/musiconnect/hero.png",
+    route: "/capstone/2024/fall/projects/musiconnect"
+  },
+  {
+    year: "2024",
+    description: "Sustainable urban gardening solutions",
+    name: "Eden",
+    cover: "/projects/eden/hero.png",
+    route: "/capstone/2024/fall/projects/eden"
+  },
+  {
+    year: "2024",
+    description: "Restaurant reservation and table management system",
+    name: "Table Tango",
+    cover: "/projects/table-tango/hero.png",
+    route: "/capstone/2024/fall/projects/table-tango"
+  },
+  {
+    year: "2024",
+    description: "Investment platform for retail investors",
+    name: "Innovest",
+    cover: "/projects/innovest/hero.png",
+    route: "/capstone/2024/fall/projects/innovest"
+  },
+  // 2025 Spring Projects
+  {
+    year: "2025",
+    description: "A dual AI business intelligence and brokerage platform for retail investors",
+    name: "Uninvestible",
+    cover: "/projects/spring2025/uninvestible/Hero Image.png",
+    route: "/capstone/2025/spring/projects/uninvestible"
+  },
+  {
+    year: "2025",
+    description: "Digital platform for aging parents and family caregivers",
+    name: "Synced",
+    cover: "/projects/spring2025/synced/hero_image.jpg",
+    route: "/capstone/2025/spring/projects/synced"
+  },
+  {
+    year: "2025", 
+    description: "Smart logistics solution that optimizes shipping routes",
+    name: "LoadWise", 
+    cover: "/projects/spring2025/loadwise/LoadWiseLogo.png",
+    route: "/capstone/2025/spring/projects/loadwise"
+  },
+  {
+    year: "2025", 
+    description: "Emotional training platform for student options traders",
+    name: "TradeTribe", 
+    cover: "/projects/spring2025/tradetribe/hero.png",
+    route: "/capstone/2025/spring/projects/tradetribe"
+  },
+  {
+    year: "2025", 
+    description: "Habit-breaking platform using behavioral science and gamification",
+    name: "Quitly", 
+    cover: "/projects/spring2025/quitly/Quitly_Homepage.png",
+    route: "/capstone/2025/spring/projects/quitly"
+  },
+  // Text cards for "BTE" letters
+  { text: "B" },
+  { text: "T" },
+  { text: "E" }
 ];
 
 function shuffleArray(array) {
@@ -27,11 +94,23 @@ function shuffleArray(array) {
 }
 
 export default function Page() {
-  const [projects, setProjects] = useState(initialProjects.slice(0, 9));
+  // Select initial projects (mix of real projects and text cards)
+  const [projects, setProjects] = useState(() => {
+    // Get 6 random real projects
+    const selectedProjects = shuffleArray([...realProjects.filter(p => p.year)]).slice(0, 6);
+    // Add BTE text cards
+    const textCards = realProjects.filter(p => p.text);
+    // Mix them together
+    return shuffleArray([...selectedProjects, ...textCards]);
+  });
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setProjects(prevProjects => shuffleArray([...prevProjects]));
+      // Get new selection of projects for rotation
+      const realProjectsPool = realProjects.filter(p => p.year);
+      const selectedProjects = shuffleArray([...realProjectsPool]).slice(0, 6);
+      const textCards = realProjects.filter(p => p.text);
+      setProjects(shuffleArray([...selectedProjects, ...textCards]));
     }, 7000); 
 
     return () => clearInterval(intervalId);
@@ -46,13 +125,14 @@ export default function Page() {
       </div>
       <div className="max-w-[900px] gap-4 grid grid-cols-3 px-8">
         {projects.map((project, index) => project.year ? (
-            <ProjectCard
-              key={index}
-              year={project.year}
-              description={project.description}
-              name={project.name}
-              cover={project.cover}
-            />
+            <Link href={project.route} key={index}>
+              <ProjectCard
+                year={project.year}
+                description={project.description}
+                name={project.name}
+                cover={project.cover}
+              />
+            </Link>
           ) : (
             <TextCard key={index} text={project.text}/>
           ))}
